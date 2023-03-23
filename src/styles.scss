@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e2e2e2;
+}
+
+:root {
+	--grammarly-interactive-color: #480c79;
+	--grammarly-default-border-radius: 3px;
+	--grammarly-card-border-radius: 8px;
+	--grammarly-button-z-index: 1000;
+}

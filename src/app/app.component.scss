@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+
+  h1,
+  p {
+    margin: 0;
+  }
+
+  .text-box-container {
+    max-width: 80%;
+    padding: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    .quill-container {
+      width: 20rem;
+      ::ng-deep.ql-container.ql-snow {
+        height: 10rem;
+      }
+    }
+  }
+}
