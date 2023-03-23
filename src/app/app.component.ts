@@ -8,7 +8,7 @@ import { QuillTextArea } from './models/quill.model';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  clientId = 'client_6FqbHxSEi5bCgcnXqoH7P9';
+  clientId = 'your_api_key'; // 👈 your grammarly client id here
   quills: QuillTextArea[] = quillsInformation;
   toggle: boolean = false;
   editors: any[] = [];
