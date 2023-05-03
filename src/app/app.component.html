@@ -9,6 +9,7 @@
       <quill-editor [(ngModel)]="quill.text"></quill-editor>
     </div>
   </div>
-
   <button (click)="toggleGrammarly()">{{ !toggle ? 'Desconectar' : 'Contectar'}} Grammarly </button>
+  <button (click)="showLogs()">Show Logs </button>
+  <grammarly-button></grammarly-button>
 </div>
